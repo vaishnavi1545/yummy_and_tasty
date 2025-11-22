@@ -30,6 +30,10 @@ body {
     cursor: pointer;
 }
 
+.text{
+    text-align: center;
+}
+
 .auth-link-container{
     display: flex;
     gap: 30px;
@@ -51,6 +55,7 @@ body {
     border-radius: 10px;
     background-color:#ebc7c7;
     text-align: center;
+    box-shadow: 2px 2px 5px 10px rgb(211, 208, 208);
 }
 
 .login-signup-button{
