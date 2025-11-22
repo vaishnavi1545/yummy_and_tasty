@@ -1,0 +1,37 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #def7c7;
+}
+
+.navbar-main-container {
+    background-color: #1A1A1A;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-name {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-links-container {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.auth-link-container{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
