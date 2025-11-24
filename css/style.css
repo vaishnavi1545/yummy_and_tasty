@@ -1,16 +1,21 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-color:#fef2f2;
+    background-color: #fef2f2;
 }
 
 .navbar-main-container {
-    background-color:black;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: sticky;
+}
+
+.menu-items{
+    text-decoration: none;
+    color: white;
 }
 
 .logo-container {
@@ -30,44 +35,44 @@ body {
     cursor: pointer;
 }
 
-.text{
+.text {
     text-align: center;
     font-style: italic;
 }
 
-.auth-link-container{
+.auth-link-container {
     display: flex;
     gap: 30px;
     cursor: pointer;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.item{
+.item {
     height: 250px;
     width: 350px;
     margin: 100px;
     border: 1px solid rgb(181, 183, 184);
     border-radius: 10px;
-    background-color:#ebc7c7;
+    background-color: #ebc7c7;
     text-align: center;
     box-shadow: 2px 2px 5px 10px rgb(211, 208, 208);
 }
 
-.login-signup-button{
+.login-signup-button {
     background-color: lightblue;
     padding: 6px 14px;
     border-radius: 10px;
     cursor: pointer;
     border: #b9b6b6;
-    border:1px solid rgb(181, 183, 184)
+    border: 1px solid rgb(181, 183, 184)
 }
 
-.login-signup-button:hover{
+.login-signup-button:hover {
     background: #e3e3e3;
 }
