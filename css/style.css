@@ -32,6 +32,7 @@ body {
 
 .text{
     text-align: center;
+    font-style: italic;
 }
 
 .auth-link-container{
