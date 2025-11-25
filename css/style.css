@@ -13,7 +13,7 @@ body {
     position: sticky;
 }
 
-.menu-items{
+.menu-items {
     text-decoration: none;
     color: white;
 }
@@ -41,13 +41,13 @@ body {
     font-size: 45px;
 }
 
-.main-content-container{
+.main-content-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.main-image{
+.main-image {
     margin-top: 25px;
     height: 450px;
 }
@@ -59,14 +59,14 @@ body {
     cursor: pointer;
 }
 
-.container {
+.container-login-signup {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.item {
+.form {
     height: 250px;
     width: 350px;
     margin: 100px;
