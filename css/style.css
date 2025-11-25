@@ -58,31 +58,31 @@ body {
     height: 450px;
 }
 
-.get-started-button{
+.get-started-button {
     padding: 10px 25px;
     font-size: 15px;
-    background-color:tomato;
-    color:white;
+    background-color: tomato;
+    color: white;
     border: none;
     border-radius: 30px;
     cursor: pointer;
 }
 
-.get-started-button:hover{
+.get-started-button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.learn-more-button{
+.learn-more-button {
     padding: 10px 25px;
     font-size: 15px;
     background-color: green;
-    color:white;
+    color: white;
     border: none;
     border-radius: 30px;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
-.learn-more-button:hover{
+.learn-more-button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -101,7 +101,12 @@ body {
     border-radius: 10px;
     background-color: #ebc7c7;
     text-align: center;
-    box-shadow: 2px 2px 5px 10px rgb(211, 208, 208);
+    
+}
+
+.form:hover{
+    border: 0.2px solid skyblue;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 .login-signup-button {
