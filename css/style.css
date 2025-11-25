@@ -35,10 +35,23 @@ body {
     cursor: pointer;
 }
 
-.text {
+.heading {
     text-align: center;
     font-style: italic;
+    font-size: 45px;
 }
+
+.main-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-image{
+    margin-top: 25px;
+    height: 450px;
+}
+
 
 .auth-link-container {
     display: flex;
