@@ -35,6 +35,12 @@ body {
     cursor: pointer;
 }
 
+.auth-link-container {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
 .heading {
     text-align: center;
     font-style: italic;
@@ -52,11 +58,32 @@ body {
     height: 450px;
 }
 
-
-.auth-link-container {
-    display: flex;
-    gap: 30px;
+.get-started-button{
+    padding: 10px 25px;
+    font-size: 15px;
+    background-color:tomato;
+    color:white;
+    border: none;
+    border-radius: 30px;
     cursor: pointer;
+}
+
+.get-started-button:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.learn-more-button{
+    padding: 10px 25px;
+    font-size: 15px;
+    background-color: green;
+    color:white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;   
+}
+
+.learn-more-button:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .container-login-signup {
